@@ -1,0 +1,33 @@
+{
+  "id": "KN-YYYYMMDD-NNN",
+  "title": "Отдельный тезис",
+  "claim_type": "hypothesis",
+  "origin_kind": "book",
+  "status": "captured",
+  "recorded_at": "YYYY-MM-DD",
+  "statement": "Здесь сформулирован один тезис, а не пересказ всей книги.",
+  "scope": "Условия применимости",
+  "source": {
+    "label": "Автор / название / издание",
+    "reference": "Точная ссылка или библиографические сведения",
+    "locator": "Номер страницы или глава",
+    "reviewed_material": "Реально прочитанный объём"
+  },
+  "impacted_nodes": [
+    "P3"
+  ],
+  "related_record_ids": [],
+  "links": [
+    {
+      "kind": "refines",
+      "target_id": "KN-существующий-ID"
+    }
+  ],
+  "checks_needed": [
+    "Как проверить тезис?"
+  ],
+  "decision_ref": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "limitations": "Какие допущения?"
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.1.0",
+  "model": "4i7",
+  "state": "research",
+  "source": {
+    "repository": "i4w7w4a/4i7_psys",
+    "issue_1": "https://github.com/i4w7w4a/4i7_psys/issues/1"
+  },
+  "observer": {
+    "id": "i",
+    "author_definition": "Я, откуда смотрящий",
+    "engineering_hypothesis": "Оркестратор внимания, масштаба и маршрута",
+    "not_a_pillar": true
+  },
+  "directions": [
+    {
+      "id": "front",
+      "label": "Спереди",
+      "rotation_order": 0,
+      "semantic_status": "unassigned"
+    },
+    {
+      "id": "right",
+      "label": "Справа",
+      "rotation_order": 1,
+      "semantic_status": "unassigned"
+    },
+    {
+      "id": "back",
+      "label": "Сзади",
+      "rotation_order": 2,
+      "semantic_status": "unassigned"
+    },
+    {
+      "id": "left",
+      "label": "Слева",
+      "rotation_order": 3,
+      "semantic_status": "unassigned"
+    }
+  ],
+  "pillars": [
+    {
+      "id": 1,
+      "node_id": "P1",
+      "author_image": "Идея",
+      "working_term": "Замысел",
+      "status": "working-hypothesis",
+      "question": "Что действительно хотим изменить и зачем?",
+      "document": "docs/pillars/01-idea.md",
+      "side_positions": {
+        "front": {
+          "id": "P1.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P1.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P1.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P1.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "node_id": "P2",
+      "author_image": "Скелет связей",
+      "working_term": "Структура",
+      "status": "working-hypothesis",
+      "question": "Из чего состоит целое, что от чего зависит?",
+      "document": "docs/pillars/02-structure.md",
+      "side_positions": {
+        "front": {
+          "id": "P2.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P2.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P2.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P2.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "node_id": "P3",
+      "author_image": "Голос",
+      "working_term": "Выражение",
+      "status": "working-hypothesis",
+      "question": "Как сделать смысл выразимым и передаваемым без искажения?",
+      "document": "docs/pillars/03-voice.md",
+      "side_positions": {
+        "front": {
+          "id": "P3.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P3.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P3.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P3.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "node_id": "P4",
+      "author_image": "Баланс",
+      "working_term": "Согласование / мера",
+      "status": "working-hypothesis",
+      "question": "Какое действие соразмерно ценности, связности, ресурсам и риску?",
+      "document": "docs/pillars/04-balance.md",
+      "side_positions": {
+        "front": {
+          "id": "P4.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P4.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P4.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P4.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "node_id": "P5",
+      "author_image": "Действие",
+      "working_term": "Воплощение",
+      "status": "working-hypothesis",
+      "question": "Что на самом деле изменено или испытано?",
+      "document": "docs/pillars/05-action.md",
+      "side_positions": {
+        "front": {
+          "id": "P5.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P5.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P5.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P5.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "node_id": "P6",
+      "author_image": "Судья",
+      "working_term": "Проверка / различение",
+      "status": "working-hypothesis",
+      "question": "Что подтверждено, чем и при каких условиях?",
+      "document": "docs/pillars/06-judge.md",
+      "side_positions": {
+        "front": {
+          "id": "P6.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P6.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P6.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P6.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "node_id": "P7",
+      "author_image": "Итог и память",
+      "working_term": "Усвоение",
+      "status": "working-hypothesis",
+      "question": "Что нужно сохранить и как опыт изменит следующий замысел?",
+      "document": "docs/pillars/07-memory.md",
+      "side_positions": {
+        "front": {
+          "id": "P7.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P7.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P7.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P7.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "source": "P1",
+      "target": "P2",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P2",
+      "target": "P3",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P3",
+      "target": "P4",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P4",
+      "target": "P5",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P5",
+      "target": "P6",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P6",
+      "target": "P7",
+      "kind": "illustrative-sequence",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P7",
+      "target": "P1",
+      "kind": "feedback",
+      "status": "hypothesis"
+    },
+    {
+      "source": "P1",
+      "target": "P7",
+      "kind": "cross-check-pair",
+      "bidirectional": true,
+      "status": "hypothesis"
+    },
+    {
+      "source": "P2",
+      "target": "P6",
+      "kind": "cross-check-pair",
+      "bidirectional": true,
+      "status": "hypothesis"
+    },
+    {
+      "source": "P3",
+      "target": "P5",
+      "kind": "cross-check-pair",
+      "bidirectional": true,
+      "status": "hypothesis"
+    }
+  ],
+  "route_examples": {
+    "clockwise_start_front": [
+      "P1.front",
+      "P2.right",
+      "P3.back",
+      "P4.left",
+      "P5.front",
+      "P6.right",
+      "P7.back"
+    ],
+    "counterclockwise_start_front": [
+      "P1.front",
+      "P2.left",
+      "P3.back",
+      "P4.right",
+      "P5.front",
+      "P6.left",
+      "P7.back"
+    ],
+    "distinct_positions": 28,
+    "interpretation": "Illustrative paths, not mandatory algorithm or evidence of improved quality."
+  },
+  "scale_examples": [
+    "project",
+    "subsystem",
+    "task"
+  ],
+  "cautions": [
+    "Do not assign direction semantics without author approval.",
+    "Do not treat seven pillars as seven mandatory agents.",
+    "Do not conflate spiral directions and text embeddings.",
+    "Actual architecture of an external OS must be audited before mapping."
+  ],
+  "knowledge_layer": {
+    "state": "research",
+    "index_file": "knowledge/index.json",
+    "evolution_policy": "docs/06-evolution.md",
+    "automatic_rewriting": false
+  }
+}
