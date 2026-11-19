@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="770" viewBox="0 0 960 770" role="img" aria-labelledby="title description" lang="ru">
+  <title id="title">4i7. Рабочая матрица</title>
+  <desc id="description">Наблюдатель i выбирает масштаб, столп и маршрут. Семь столпов — Идея, Голос, Скелет связей, Баланс, Действие, Судья, Хранитель. У каждого столпа четыре стороны — Да, Нет, Воздержание и Скольжение. Каждая сторона раскрыта через аспекты «да» и «нет». Описаны все 56 аспектов, включая Воздержание Идеи и Скольжение Хранителя. Пример P3.2.1 указывает на Скелет связей, вторую сторону «Нет», аспект «да». Это якорь возврата к неясной связи.</desc>
+  <defs>
+    <linearGradient id="night" x2="1" y2="0.6">
+      <stop stop-color="#24264D"/>
+      <stop offset="1" stop-color="#37366B"/>
+    </linearGradient>
+    <g id="pair" fill="#17786D">
+      <circle cx="-28" r="6.5"/>
+      <circle cx="28" r="6.5"/>
+    </g>
+    <g id="fourPairs">
+      <use xlink:href="#pair" x="336"/>
+      <use xlink:href="#pair" x="501"/>
+      <use xlink:href="#pair" x="670"/>
+      <use xlink:href="#pair" x="845"/>
+    </g>
+    <g id="aspectLabels" font-size="16" fill="#516463" text-anchor="middle">
+      <text x="-28">да</text><text x="28">нет</text>
+    </g>
+    <style>
+      text { font-family: Inter, "Noto Sans", Arial, sans-serif; }
+      .axis { font-size: 23px; font-weight: 700; fill: #282847; }
+      .side { font-size: 19px; font-weight: 650; fill: #184C48; text-anchor: middle; }
+      .id { font-size: 16px; font-weight: 700; fill: #595977; }
+      .pillar { font-size: 21px; font-weight: 600; fill: #2A2A49; }
+      .legend { font-size: 16px; fill: #445458; }
+    </style>
+  </defs>
+
+  <rect width="960" height="770" rx="20" fill="#F7F8F7"/>
+  <g aria-label="Точка наблюдения">
+    <rect x="16" y="16" width="928" height="122" rx="14" fill="url(#night)"/>
+    <text x="41" y="87" font-size="63" font-weight="700" fill="#FFFFFF">4i7</text>
+    <text x="43" y="116" font-size="18" fill="#E2E3F8">Рабочая матрица</text>
+    <path d="M249 36V118" stroke="#62618C"/>
+    <circle cx="301" cy="76" r="25" fill="#F4CE77"/>
+    <text x="301" y="88" text-anchor="middle" font-size="37" font-style="italic" font-weight="600" fill="#2B2949">i</text>
+    <text x="348" y="65" font-size="24" font-weight="650" fill="#FFFFFF">Точка наблюдения</text>
+    <text x="348" y="93" font-size="18" fill="#E5E6FA">Удерживает замысел целого, выбирает масштаб</text>
+    <text x="348" y="117" font-size="18" fill="#E5E6FA">и столп. Маршрут можно менять по ходу работы.</text>
+  </g>
+
+  <g aria-label="Семь столпов и четыре стороны с двумя аспектами у каждой">
+    <text class="axis" x="35" y="191">Семь столпов</text>
+    <text class="axis" x="274" y="191">Четыре стороны, по два аспекта у каждой</text>
+    <rect x="268" y="208" width="668" height="67" rx="8" fill="#E6F1ED"/>
+    <g class="side" transform="translate(0 237)">
+      <text x="336">1 · Да</text>
+      <text x="501">2 · Нет</text>
+      <text x="670">3 · Воздержание</text>
+      <text x="845">4 · Скольжение</text>
+    </g>
+    <g transform="translate(0 263)">
+      <use xlink:href="#aspectLabels" x="336"/>
+      <use xlink:href="#aspectLabels" x="501"/>
+      <use xlink:href="#aspectLabels" x="670"/>
+      <use xlink:href="#aspectLabels" x="845"/>
+    </g>
+    <rect x="24" y="282" width="912" height="293" rx="9" fill="#FFFFFF"/>
+    <rect x="24" y="366" width="912" height="42" rx="7" fill="#FFF0CB"/>
+    <path d="M268 282V575 M415 282V575 M583 282V575 M756 282V575" stroke="#D6DEDC"/>
+    <g stroke="#EAEEEC"><path d="M34 324H926 M34 366H926 M34 408H926 M34 450H926 M34 492H926 M34 534H926"/></g>
+    <g transform="translate(0 303)">
+      <text class="id" x="36" y="6">P1</text><text class="pillar" x="82" y="7">Идея</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+    <g transform="translate(0 345)">
+      <text class="id" x="36" y="6">P2</text><text class="pillar" x="82" y="7">Голос</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+    <g transform="translate(0 387)">
+      <text class="id" x="36" y="6">P3</text><text class="pillar" x="82" y="7">Скелет связей</text>
+      <use xlink:href="#fourPairs"/>
+      <circle cx="473" r="12" fill="none" stroke="#9D6814" stroke-width="2"/>
+    </g>
+    <g transform="translate(0 429)">
+      <text class="id" x="36" y="6">P4</text><text class="pillar" x="82" y="7">Баланс</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+    <g transform="translate(0 471)">
+      <text class="id" x="36" y="6">P5</text><text class="pillar" x="82" y="7">Действие</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+    <g transform="translate(0 513)">
+      <text class="id" x="36" y="6">P6</text><text class="pillar" x="82" y="7">Судья</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+    <g transform="translate(0 555)">
+      <text class="id" x="36" y="6">P7</text><text class="pillar" x="82" y="7">Хранитель</text>
+      <use xlink:href="#fourPairs"/>
+    </g>
+  </g>
+
+  <g aria-label="Условные обозначения">
+    <circle cx="42" cy="606" r="6.5" fill="#17786D"/>
+    <text class="legend" x="58" y="612">Описаны все 56 аспектов</text>
+    <circle cx="366" cy="606" r="6.5" fill="#17786D"/>
+    <circle cx="366" cy="606" r="12" fill="none" stroke="#9D6814" stroke-width="2"/>
+    <text class="legend" x="389" y="612">Аспект, выбранный для примера</text>
+  </g>
+
+  <g aria-label="Пример адреса P3.2.1">
+    <rect x="24" y="635" width="912" height="112" rx="11" fill="#FFF0CB"/>
+    <text x="42" y="675" font-size="17" font-weight="600" fill="#674710">Пример адреса</text>
+    <text x="40" y="718" font-size="34" font-weight="700" fill="#493B2A">P3.2.1</text>
+    <path d="M224 655V728" stroke="#DABD78"/>
+    <text x="246" y="670" font-size="20" font-weight="650" fill="#372F2B">Скелет связей → сторона «Нет» → аспект «да»</text>
+    <text x="246" y="700" font-size="17" fill="#4A4235">Если связь пока не ясна, сохранить вопрос, чтобы вернуться</text>
+    <text x="246" y="723" font-size="17" fill="#4A4235">к нему после знакомства с системой целиком.</text>
+  </g>
+</svg>

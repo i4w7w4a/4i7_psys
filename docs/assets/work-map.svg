@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title description" lang="ru">
+  <title id="title">Как устроена работа над 4i7</title>
+  <desc id="description">В GitHub Issues находятся основа №1, авторские уточнения №12 и визуальные источники №9. Три черновика PR зависят друг от друга. №2 описывает каркас с наблюдателем i и семью столпами. В №14 описаны все 56 аспектов матрицы из семи столпов, четырёх сторон и двух аспектов на сторону. №17 собирает контекст для агента по выбранному адресу. В отдельных PR находятся живой словарь №13 и визуальный атлас №8.</desc>
+  <defs>
+    <linearGradient id="indigo" x2="1" y2="0.55">
+      <stop stop-color="#252957"/>
+      <stop offset="1" stop-color="#35346C"/>
+    </linearGradient>
+    <style>
+      text { font-family: "Inter", "Noto Sans", Arial, sans-serif; }
+      .title { font-size: 43px; font-weight: 700; fill: #24254A; }
+      .section { font-size: 23px; font-weight: 700; fill: #24254A; }
+      .source-id { font-size: 16px; font-weight: 700; fill: #08625B; }
+      .source-name { font-size: 22px; font-weight: 600; fill: #133F42; }
+      .stage-id { font-size: 17px; font-weight: 700; fill: #FFDD93; }
+      .stage-name { font-size: 24px; font-weight: 700; fill: #FFFFFF; }
+      .stage-detail { font-size: 17px; fill: #E2E5FC; }
+      .secondary-name { font-size: 22px; font-weight: 600; fill: #3A3043; }
+      .secondary-detail { font-size: 17px; fill: #574D4E; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="650" rx="20" fill="#F8F9F8"/>
+  <text class="title" x="40" y="74">Как устроена работа над 4i7</text>
+
+  <g aria-label="Источники">
+    <text class="section" x="40" y="137">Источники в GitHub Issues</text>
+    <rect x="40" y="155" width="920" height="93" rx="11" fill="#E2F2EE"/>
+    <path d="M327 173V230 M653 173V230" stroke="#ADCFC7" stroke-width="1.5"/>
+    <g transform="translate(60 0)">
+      <text class="source-id" y="186">#1</text>
+      <text class="source-name" y="220">Основа 4i7</text>
+    </g>
+    <g transform="translate(350 0)">
+      <text class="source-id" y="186">#12</text>
+      <text class="source-name" y="220">Авторские уточнения</text>
+    </g>
+    <g transform="translate(677 0)">
+      <text class="source-id" y="186">#9</text>
+      <text class="source-name" y="220">Визуальные источники</text>
+    </g>
+  </g>
+
+  <g aria-label="Зависимые черновики PR">
+    <rect x="20" y="273" width="960" height="221" rx="15" fill="url(#indigo)"/>
+    <text x="40" y="314" font-size="23" font-weight="700" fill="#FFFFFF">Зависимые черновики PR</text>
+    <path d="M40 331H960" stroke="#5E6190" stroke-width="1"/>
+    <g transform="translate(40 0)">
+      <text class="stage-id" y="366">#2</text>
+      <text class="stage-name" y="402">Каркас</text>
+      <text class="stage-detail" y="440">Точка наблюдения i</text>
+      <text class="stage-detail" y="465">и семь столпов.</text>
+    </g>
+    <g fill="none" stroke="#FFDA82" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M274 395H311 M302 386L311 395L302 404"/>
+      <path d="M598 395H635 M626 386L635 395L626 404"/>
+    </g>
+    <g transform="translate(350 0)">
+      <text class="stage-id" y="366">#14</text>
+      <text class="stage-name" y="402">Матрица 7×4×2</text>
+      <text class="stage-detail" y="440">Столп → сторона → аспект.</text>
+      <text class="stage-detail" y="465">Описаны все 56 аспектов.</text>
+    </g>
+    <g transform="translate(677 0)">
+      <text class="stage-id" y="366">#17</text>
+      <text class="stage-name" y="402">Контекст для агента</text>
+      <text class="stage-detail" y="440">Выбранный адрес задаёт</text>
+      <text class="stage-detail" y="465">фокус, например P3.2.1.</text>
+    </g>
+  </g>
+
+  <g aria-label="Параллельные PR">
+    <text class="section" x="40" y="548">Параллельные PR</text>
+    <path d="M40 572V622 M507 572V622" stroke="#DCAD49" stroke-width="4"/>
+    <text class="secondary-name" x="57" y="590">#13 · Живой словарь</text>
+    <text class="secondary-detail" x="57" y="619">Суперконтракт и вес осознанности.</text>
+    <text class="secondary-name" x="524" y="590">#8 · Визуальный атлас</text>
+    <text class="secondary-detail" x="524" y="619">15 изображений и их источники.</text>
+  </g>
+</svg>
