@@ -1,0 +1,9 @@
+{
+  "runtime_version": "4i7-runtime-1",
+  "foundation_source_commit": "bb9c34dac403a208feb8c51787b69e5386ad58c9",
+  "foundation_source_branch": "docs/4i7-foundation-filled-20261114",
+  "matrix_path": "model/research/matrix-20261114.json",
+  "source_document": "docs/09-matrix.md",
+  "generated_reference": "docs/11-runtime-matrix.md",
+  "note": "Foundation provenance only, not a claim that current working tree equals this commit. Actual bytes are identified by pack hashes."
+}

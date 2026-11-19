@@ -1,0 +1,873 @@
+# Матрица runtime: проверяемое представление
+
+Сгенерировано из `model/research/matrix-20261114.json`. Не редактировать вручную.
+Статусы не повышены; это рабочая версия, не новый фундамент.
+
+```json
+{
+  "schema_version": "0.1.0",
+  "status": "under_review",
+  "date": "2026-11-14",
+  "canonical_model_changed": false,
+  "spatial_assignment": null,
+  "document": "docs/09-matrix.md",
+  "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6875047183",
+  "numbering_note": "P1.side.2 — вторая исследовательская сторона первого столпа, не столп P2; никакого соответствия front/right/back/left пока нет.",
+  "pillars": [
+    {
+      "id": "P1",
+      "title": "Идея",
+      "sides": [
+        {
+          "id": "P1.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Да: почувствовать вес идеи и положительный импульс, не превращая её в икону.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Почувствовать вес идеи, принять её положительный импульс и дать ей раскрыться.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Изначальная возможность той же силы замкнуть восприятие: избыток «да», иконизация идеи, потеря других возможностей.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12"
+            }
+          }
+        },
+        {
+          "id": "P1.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Нет: сомнение углубляет отрицание; ответы на эти вопросы выявляют потенциальные препятствия и последствия. Это два аспекта второй стороны, а не моральная оценка сомнения.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Получить ответы на сомнения и вопросы: вывести на поверхность части идеи и последствия, способные негативно повлиять на её развитие.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6875047183"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Углубить отрицание: сомневаться, спрашивать «к чему это приведёт?», «насколько это полезно?», проверять однозначную правильность идеи и её формулировки.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6875047183"
+            }
+          }
+        },
+        {
+          "id": "P1.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Воздержание: выслушать идею, вникнуть в смысл и суть; это не равнодушие.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Выслушать идею и вникнуть в её смысл, дать пониманию раскрыться.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Удержаться от преждевременного суждения, пока идея ещё раскрывается.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+            }
+          },
+          "decision_ref": "knowledge/decisions/DR-20261119-001.md",
+          "revision_note": "19 ноября автор принял для работы редакционное разделение своей исходной мысли о выслушивании идеи на два аспекта.",
+          "proposal_source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6963072889"
+        },
+        {
+          "id": "P1.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Фиксируем и скользим дальше: фиксация удерживает раскрытый смысл, не объявляя путь завершённым.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Скольжение далее, продолжение движения.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6876277084"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Предварительно: точка фиксации скольжения, удерживающая общий вывод о смысле и конструкции рассматриваемой ноды.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6876277084"
+            }
+          },
+          "node_note": "Нода — весь рассматриваемый аспект; не подменять автоматически всем столпом, стороной или программным узлом.",
+          "open_questions": [
+            "Отношение точки фиксации к контракту и суперконтракту не установлено; критерий завершённости вывода и обязательный порядок обхода не назначены."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Голос",
+      "sides": [
+        {
+          "id": "P2.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Да: рабочее раскрытие Голоса в авторском разговоре.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Выражать сформированное понимание идеи целенаправленным говорением и действием: сказать, что делать, дать ясное задание агенту, опираясь на выводы идеи.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Удерживаться от лишнего говорения и речи в пустоту: у высказывания должна быть цель, а у задания — сформированное содержание.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            }
+          }
+        },
+        {
+          "id": "P2.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Нет: рабочее раскрытие Голоса в авторском разговоре.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Уметь твёрдо сказать «нет»: остановить неверное действие или при аномалии сказать «погоди, постой, давай разберёмся».",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Вычленить аномалию и разобраться в самом отрицании: понять, почему возникло «нет», что именно неясно и что требует остановки.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            }
+          },
+          "limitations": [
+            "«Минус на минус даёт плюс» — авторская аналогия прояснения, не математическое доказательство."
+          ]
+        },
+        {
+          "id": "P2.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Воздержание: рабочее раскрытие Голоса в авторском разговоре.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Уловить намерение прежде, чем выражать его.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Не допускать того, что сейчас мешает разобраться и уловить намерение.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            }
+          }
+        },
+        {
+          "id": "P2.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Скольжение: рабочее раскрытие Голоса в авторском разговоре.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Знать, кому сказать, и целенаправленно двигаться к адресату по дорогам структуры: скелет даёт пути, по которым голос может быть услышан.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Сохранить внешнее молчание и внутренний диалог, если путь неясен или есть сомнение: обратиться к i, образу оракула/главного оркестратора, обдумать, затем вернуться к внешнему выражению.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944"
+            }
+          },
+          "limitations": [
+            "Песня и песнопение — первоначальный поисковый образ, не отдельное определение.",
+            "Внутренний диалог с i — авторский образ, не утверждение о субъективном сознании ИИ.",
+            "Жёсткие критерии выбора маршрута и завершения паузы пока не определены."
+          ]
+        }
+      ],
+      "description": "Самовыражение идеи и подготовка инструментария для её выражения; скелет даёт дороги к адресату.",
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944",
+      "revision_note": "Названия сторон: Да, Нет, Воздержание, Скольжение. «Внимание» и «расширение» были ошибочными ярлыками ассистента в разговоре, не авторским переименованием.",
+      "open_questions": [
+        "Как различать сформированное намерение и преждевременную уверенность?",
+        "Как выбирать адресата и понимать, что внутреннее обдумывание достаточно для внешнего выражения?"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Скелет связей",
+      "sides": [
+        {
+          "id": "P3.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Выстраивание ясного скелета с пределом детализации.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Выстраивать саму структуру: основные узлы, связи, направления и векторы, позволяющие быстро охватить целое.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Ограничивать детализацию: не уходить бесконечно до слов, букв и символов, теряя ясность скелета.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731"
+            }
+          }
+        },
+        {
+          "id": "P3.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Ненайденная связь и сохранение якоря возврата к неясному фрагменту.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Вычленить неясный фрагмент, сохранить вопросы «почему связь не налаживается?» и «к чему принадлежит элемент?». Оставить слепок и якорь/зацеп/портал возврата после общего понимания системы, чтобы не забыть неясность.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878642283"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Связь пока не найдена: элемент не укладывается в текущую схему. Это не доказательство отсутствия связи навсегда.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878642283"
+            }
+          }
+        },
+        {
+          "id": "P3.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Выслушивать структуру: созерцательно описывать то, что не следует насильно изображать скелетными связями.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Отдельно называть и описывать элементы вне скелетной формы, чтобы понимать, что они есть, и не создавать путаницу.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878777871"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Замечать элементы вне скелетной формы и не натягивать их на схему насильно.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878777871"
+            }
+          },
+          "limitations": [
+            "Не приравнивать «вне скелета» к «вне всей системы».",
+            "Пример нерешённых вопросов не гарантирует их будущего разрешения."
+          ]
+        },
+        {
+          "id": "P3.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Скольжение через скелет: возврат внутрь и движение вперёд к содержательному раскрытию.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Движение вперёд через скелет к остальным столпам и более содержательным «мясным и сухожильным» структурам.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878834784"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Возврат внутрь по скелету к ранее замеченной в P3/2 неясности с более полным пониманием после прохождения системы.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878834784"
+            }
+          },
+          "revision_note": "Сначала автор назвал возвращение плюсом, затем сам исправил: возврат — P3/4.нет, движение вперёд — P3/4.да. Актуальна последняя расстановка.",
+          "limitations": [
+            "Возврат не гарантирует разрешения неясности.",
+            "Жёсткий алгоритм и порядок обхода не установлены."
+          ]
+        }
+      ],
+      "open_questions": [
+        "Вне скелета — не обязательно вне системы? Это вопрос ассистента, автором ещё не подтверждён.",
+        "По каким признакам выбирать момент возврата и как проверять, что более полное понимание действительно прояснило неясность?"
+      ],
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878834784"
+    },
+    {
+      "id": "P4",
+      "title": "Баланс",
+      "sides": [
+        {
+          "id": "P4.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Балансировка нагрузки с сохранением пространства роста.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Активно балансировать нагрузку и поддерживать устойчивость системы.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Оставлять пространство для роста и дополнительные ресурсы; вмешиваться при реальном риске поломки, не подавляя развитие преждевременным ограничением.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283"
+            }
+          }
+        },
+        {
+          "id": "P4.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Намеренное снятие балансирующих ограничений и распознавание нарастающего перекоса.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Намеренно снимать балансирующие ограничения для наблюдения за происходящим; пример — тестовая песочница.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Замечать нарастающий перекос, когда система сама не выравнивается.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283"
+            }
+          }
+        },
+        {
+          "id": "P4.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Построить средства наблюдения и анализа, затем созерцать самостоятельное поведение без вмешательства.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Искать и строить системы наблюдения и анализа за самостоятельным поведением системы.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961715345"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Созерцать уже построенными средствами: отпустить вожжи, наблюдать параметры без вмешательства и затем анализировать наблюдаемое.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961715345"
+            }
+          },
+          "candidate_note": {
+            "status": "superseded",
+            "origin": "assistant_proposal_not_author_confirmed",
+            "text": "Наблюдать временный перекос и дать системе время выровняться.",
+            "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283",
+            "aspect_assignment": null,
+            "note": "Исторический набросок ассистента не принят как определение. Актуальная авторская пара отдельно зафиксирована в aspects; обещания самовыравнивания нет.",
+            "superseded_by": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961715345"
+          },
+          "revision_note": "Ранее не подтверждённый набросок ассистента не подменяет авторскую пару: да — построение средств наблюдения/анализа, нет — созерцание ими без вмешательства и последующий анализ.",
+          "limitations": [
+            "Параметры, длительность наблюдения и критерии его завершения не определены.",
+            "Самовыравнивание системы не гарантируется."
+          ]
+        },
+        {
+          "id": "P4.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Двусторонний канал к системе и из неё; отдельно — пресеты баланса и переходы между наборами.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Скользить к системе и из неё: двусторонний канал, через который другие направления и агенты подключаются к системе, а из неё можно обращаться к другим направлениям и агентам и посылать сигнал.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961828374"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Сохранять настройки баланса как пресеты и быстро переходить от одного набора настроек к другому, включая переходы между системами.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961772643"
+            }
+          },
+          "revision_note": "Сначала автор отнёс пресеты к да, затем сам исправил на нет и подтвердил. Актуальный адрес P4/4.нет (4.4.2); позднее автор отдельно раскрыл P4/4.да (4.4.1) как двусторонний канал. Пресеты и канал не отождествляются.",
+          "limitations": [
+            "Формат, совместимость и условия выбора пресетов не определены.",
+            "Перенос между системами не означает автоматическую применимость любого набора.",
+            "Протокол канала, условия подключения и обработка сигнала не определены; запись не предоставляет агентам доступ."
+          ]
+        }
+      ],
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961828374",
+      "open_questions": [
+        "По чему отличать временный перекос от нарастающего?",
+        "Как распознать реальный риск поломки и выбрать масштаб наблюдения?",
+        "Какие параметры наблюдать и когда завершать невмешательство?",
+        "Как устроены подключение, сигнал и проверка двустороннего канала?",
+        "По чему проверять уместность и совместимость пресета между системами?"
+      ],
+      "engineering_caution": {
+        "origin": "assistant_engineering_precaution",
+        "text": "Изолировать эксперимент со снятием ограничений от реальных систем, данных и необратимых последствий. Это не условие автора и не разрешение отключать защиту.",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961642283"
+      }
+    },
+    {
+      "id": "P5",
+      "title": "Действие",
+      "sides": [
+        {
+          "id": "P5.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Активное выполнение озвученной задачи и оболочка удержания исполнителя.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Конкретно и активно выполнять задачу, озвученную Голосом.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961900886"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Оболочка и возможность удержать исполнителя в рамках, отдёрнуть или остановить его.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961900886"
+            }
+          },
+          "author_examples": {
+            "yes": "Окно агента, пишущего код — пример, не определение.",
+            "no": "Harness, возможно skills; образы «стопарь», «ниточка». Не утверждается, что любой skill ограничивает или останавливает исполнителя."
+          },
+          "editorial_interpretation": {
+            "status": "under_review",
+            "origin": "assistant_interpretation",
+            "text": "P2/2 можно рассматривать как команду «стой», а P5/1.нет как механизм удержания/остановки. Это сопоставление ассистента, не окончательное разграничение автора."
+          }
+        },
+        {
+          "id": "P5.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Разбор старой конструкции и удержание смысла созидательного разрушения.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Активно разбирать или разрушать старую конструкцию, освобождая место новой.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961963253"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Созидательно разрушать со смыслом: понимать, что разобрать, что сохранить и ради чего.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961963253"
+            }
+          },
+          "accepted_example": {
+            "origin": "assistant_example_accepted_by_author",
+            "text": "Убрать устаревший модуль, сохранив полезные части и зависимости.",
+            "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961963253"
+          },
+          "limitations": [
+            "Это запись концепции, не разрешение удалять файлы, модули или данные.",
+            "Критерии устаревания и сохранения полезных частей не определены."
+          ]
+        },
+        {
+          "id": "P5.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Активная тихая поддержка и время/условие её окончания.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Активно воздерживаться: тихо выполнять поддерживающую функцию, собирать ресурсы и быть опорой.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962026026"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Удерживать время или условие окончания воздержания: когда срок или нужда исчерпаны, функция прекращается, меняется или упраздняется.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962026026"
+            }
+          },
+          "author_example": {
+            "text": "Скрипт по времени; иначе «вечный сон». Пример не ограничивает аспект скриптами или только таймером.",
+            "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962026026"
+          },
+          "revision_note": "Авторская пара активной поддержки и окончания функции, не прежняя гипотеза ассистента.",
+          "limitations": [
+            "Конкретный срок, достаточность ресурсов и критерии исчерпания нужды не определены.",
+            "Документирование не запускает скрипты и не останавливает реальные процессы."
+          ]
+        },
+        {
+          "id": "P5.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Совместное выполнение одной задачи несколькими агентами и контракты цели/границ движения.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Несколько агентов в режиме наподобие swarm выполняют одну задачу, обмениваются промежуточными результатами и отчитываются оркестратору.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962084983"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Контракты скольжения задают цель и границы движения, чтобы не ускользнуть слишком далеко.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962084983"
+            }
+          },
+          "editorial_examples": {
+            "origin": "assistant_examples_not_author_conditions",
+            "text": "Подхват работы и сверка — редакционные примеры, не утверждённые обязательные условия автора."
+          },
+          "limitations": [
+            "Swarm — образ организации, не назначение библиотеки или готового протокола.",
+            "Формат контрактов и механизм соблюдения границ не определены.",
+            "Документация не запускает агентов и не даёт полномочий внешним агентам."
+          ]
+        }
+      ],
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962084983",
+      "open_questions": [
+        "Как устроены оболочка, границы исполнителя и проверка фактической остановки?",
+        "Как определять, что разобрать, что сохранить и как проверить результат?",
+        "Как определить время или условие окончания поддерживающей функции?",
+        "Как задавать и пересматривать контракты скольжения, обмен результатами и отчёт оркестратору?"
+      ]
+    },
+    {
+      "id": "P6",
+      "title": "Судья",
+      "sides": [
+        {
+          "id": "P6.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Рассуждение и вердикт Судьи при наличии старшей инстанции.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Судить и рассуждать, разбирать неопределённости, быть строгим и определённым; мочь вынести вердикт, итоговую печать на действие.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962175481"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Над Судьёй есть старшая инстанция: оракул, смотрящий, человек, главный оркестратор. Судья не является последней безусловной инстанцией.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962175481"
+            }
+          },
+          "editorial_interpretation": {
+            "origin": "assistant_interpretation",
+            "status": "under_review",
+            "text": "Подотчётность и пределы полномочий: строгость не означает непогрешимость, возможность вердикта не устанавливает его безусловную окончательность."
+          },
+          "limitations": [
+            "Порядок апелляций и отмены вердикта не назначен.",
+            "Иерархия человека и оркестратора и тождество перечисленных обозначений не установлены.",
+            "Форма итоговой печати и критерии достаточности оснований открыты."
+          ]
+        },
+        {
+          "id": "P6.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Отложить преждевременное рассмотрение с якорем и при возврате решить, держать ли вопрос открытым.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Считать вердикт преждевременным и отложить рассмотрение до следующего акта, истечения времени или прохождения цикла осознания; оставить якорь на действии или контракте для возврата.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962220801"
+            },
+            "no": {
+              "status": "captured",
+              "text": "По возврату к якорю проверить достаточность оснований; если ясности нет, можно снять вопрос с рассмотрения, указав, чего не хватило и какое новое обстоятельство откроет его снова.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962476995"
+            }
+          },
+          "limitations": [
+            "Якорь на действии или контракте не отождествляется с контрактом.",
+            "Критерии преждевременности, достаточности оснований и завершения цикла пока не определены.",
+            "Следующий акт, истечение времени и цикл осознания не объявлены обязательной последовательностью.",
+            "Снятие с рассмотрения не является вердиктом по существу и не требует стирать историю."
+          ],
+          "revision_note": "P6/2.да удерживает вопрос до следующего разбора; P6/2.нет решает, стоит ли держать его открытым. Второй аспект предложен ассистентом и принят автором."
+        },
+        {
+          "id": "P6.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Выслушивать дело и участников, затем выделять существенное в анализе.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Рассматривать дело, слушать присяжных — разных агентов или работников, созерцать нюансы и выделять нужную конкретику перед решением.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962281095"
+            },
+            "no": {
+              "status": "captured",
+              "text": "В анализе убирать лишнее из рассуждения, выделять главное и опираться на существенное.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962281095"
+            }
+          },
+          "editorial_caution": {
+            "origin": "assistant_precaution_not_author_statement",
+            "text": "При отборе существенного сохранять потенциально важные противоречащие факты. Это предосторожность ассистента, не авторское определение."
+          },
+          "limitations": [
+            "Убирать лишнее из рассуждения не означает удалять исходные данные.",
+            "Присяжные — образ агентов/работников, не назначенный протокол голосования.",
+            "Критерии существенности и достаточности конкретики пока не определены."
+          ]
+        },
+        {
+          "id": "P6.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Ход вынесенного вердикта и возврат к его основаниям при новом существенном факте.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Дать вынесенному вердикту ход туда, где он влияет на дальнейшую работу, например в Голос и Скелет.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962331900"
+            },
+            "no": {
+              "status": "captured",
+              "text": "При новом существенном факте пройти обратно по основаниям уже вынесенного решения и пересмотреть его.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962331900"
+            }
+          },
+          "distinction": "В P6/2.да вердикт ещё не вынесен; в P6/4.нет возвращаются к основаниям уже вынесенного решения.",
+          "limitations": [
+            "Голос и Скелет — примеры, не обязательный маршрут.",
+            "Пересмотр не означает автоматическую отмену; исход и процедура не определены.",
+            "Порядок апелляций и иерархия человека/оркестратора не назначены."
+          ]
+        }
+      ],
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962476995",
+      "open_questions": [
+        "Что служит достаточным основанием вердикта и где границы конкретного решения?",
+        "Как устроено обращение к старшей инстанции без предположенной иерархии?",
+        "Как распознать преждевременность вердикта и условия возврата к якорю?",
+        "Как различать существенное и лишнее, не теряя значимых противоречий?",
+        "Как определить существенность нового факта и проверить результат пересмотра вердикта?",
+        "Каковы достаточные основания закрытия вопроса и условия его возобновления?"
+      ]
+    },
+    {
+      "id": "P7",
+      "title": "Хранитель",
+      "sides": [
+        {
+          "id": "P7.research.side.1",
+          "number": 1,
+          "title": "Да",
+          "status": "author_discussion",
+          "description": "Хранилище знаний и его контролирующая/модерирующая прослойка.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Устройство памяти, хранилище знаний системы.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962428263"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Контроллер, модерирующая прослойка или фильтр хранилища.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962428263"
+            }
+          },
+          "author_examples": {
+            "yes": "Obsidian и векторная память — разные образы, не обязательная технология и не одно и то же.",
+            "no": "Контроллер/прослойка/фильтр на примере векторной базы; правила не заданы."
+          },
+          "limitations": [
+            "Конкретные правила фильтра не определены.",
+            "Положение внизу схемы и близость к оркестратору не назначают иерархию или тождество с i."
+          ]
+        },
+        {
+          "id": "P7.research.side.2",
+          "number": 2,
+          "title": "Нет",
+          "status": "author_discussion",
+          "description": "Чистка активной памяти с сохранением полезной истории.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Вывести устаревшее из активной памяти, пометив, например, решение заменённым.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962542992"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Сохранить исторический след, когда он объясняет путь к решению: неудачная попытка скрыта из обычной выдачи, но ссылка сохранена.",
+              "origin": "assistant_proposal_accepted_by_author",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962542992"
+            }
+          },
+          "limitations": [
+            "Вывод из активной памяти не означает физическое удаление.",
+            "Критерии устаревания и полезности исторического следа не определены."
+          ]
+        },
+        {
+          "id": "P7.research.side.3",
+          "number": 3,
+          "title": "Воздержание",
+          "status": "author_discussion",
+          "description": "Сохранить слабый сигнал и заметить цену затянувшейся паузы.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Удержать слабый сигнал, сохранить его с источником и обстоятельствами, пока не используя как основание рабочих решений.",
+              "origin": "assistant_revision_accepted_after_author_correction",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962647604"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Заметить, когда пауза превращается в слепую зону; при повторении сигналов или новых основаниях поднять их с пометкой «нужно проверить».",
+              "origin": "assistant_revision_accepted_after_author_correction",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962647604"
+            }
+          },
+          "revision_note": "Автор указал на недостающий негативный аспект и цену воздержания; принял последующую редакцию ассистента. Ранний набросок не смешивается с этой парой.",
+          "limitations": [
+            "Повторение или новые основания — повод проверить, не автоматическое доказательство истинности.",
+            "Пороги, сроки и процедура проверки не определены."
+          ]
+        },
+        {
+          "id": "P7.research.side.4",
+          "number": 4,
+          "title": "Скольжение",
+          "status": "author_discussion",
+          "description": "Скольжение Хранителя по степеням системы и путь к главному Оракулу.",
+          "aspects": {
+            "yes": {
+              "status": "captured",
+              "text": "Возможность проскользить в любую из степеней системы.",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+            },
+            "no": {
+              "status": "captured",
+              "text": "Путь к главному Оракулу. Сохранённые слова автора — «оракул всегда имеет доступ».",
+              "origin": "author_discussion_editorial_paraphrase",
+              "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+            }
+          },
+          "decision_ref": "knowledge/decisions/DR-20261119-001.md",
+          "previous_draft": {
+            "status": "incomplete_draft",
+            "origin": "author_interrupted_statement",
+            "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962691863",
+            "yes_fragment": "Возможность проскользить в любую из степеней системы.",
+            "no_fragment": "Путь к главному Оракулу; «оракул всегда имеет доступ».",
+            "unresolved": [
+              "Предмет, условия и границы доступа",
+              "Точный смысл степеней системы",
+              "Завершение и подтверждение авторской пары"
+            ],
+            "note": "Связь прервалась. Не дополнять за автора; не подменять гипотезой о передаче опыта и не выдавать права доступа.",
+            "date": "2026-11-17",
+            "superseded_by": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+          },
+          "limitations": [
+            "Смысл выражения «степени системы» остаётся для уточнения.",
+            "Предмет, условия и границы доступа Оракула остаются для уточнения. Технические разрешения определяются отдельно."
+          ],
+          "revision_note": "19 ноября автор принял обе сохранившиеся части своего высказывания как рабочую пару Скольжения. Формулировки можно снова открыть и дополнить."
+        }
+      ],
+      "name_history": [
+        {
+          "title": "Итог и память",
+          "status": "previous_working_title"
+        },
+        {
+          "title": "Хранитель",
+          "status": "author_discussion",
+          "date": "2026-11-17",
+          "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962428263"
+        }
+      ],
+      "author_context": {
+        "text": "Хранит знания системы; на авторской схеме внизу, функционально близок к оркестратору.",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962428263"
+      },
+      "source_update": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154",
+      "open_questions": [
+        "Что именно означают «степени системы» и к чему, при каких условиях имеет доступ Оракул?",
+        "Каковы критерии поднятия слабого сигнала и проверки цены паузы?"
+      ]
+    }
+  ],
+  "numbering_revision": {
+    "date": "2026-11-14",
+    "status": "author_confirmed_numbering",
+    "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731",
+    "previous_to_current": {
+      "P2": "P3",
+      "P3": "P2"
+    },
+    "historical_sources_rewritten": false,
+    "note": "Mapping applies only to prior numbering where P2 was Skeleton and P3 Voice. Historical sources retain their original addresses; canonical model is unchanged."
+  },
+  "updated_at": "2026-11-19"
+}
+```

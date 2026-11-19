@@ -12,7 +12,7 @@ SCRIPT = ROOT / "scripts/context_pack.py"
 
 def invoke(*args):
     return subprocess.run(
-        [sys.executable, str(SCRIPT), *args],
+        [sys.executable, str(SCRIPT), "--layer", "legacy", *args],
         cwd=ROOT,
         text=True,
         capture_output=True,
@@ -79,3 +79,4 @@ class ContextPackTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
