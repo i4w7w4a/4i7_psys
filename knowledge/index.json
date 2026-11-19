@@ -1,10 +1,38 @@
 {
   "schema_version": "0.1.0",
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-19",
   "entries": [
     {
       "id": "KN-20261113-001",
       "path": "knowledge/records/KN-20261113-001.json"
+    },
+    {
+      "id": "KN-20261114-001",
+      "path": "knowledge/records/KN-20261114-001.json"
+    },
+    {
+      "id": "KN-20261117-001",
+      "path": "knowledge/records/KN-20261117-001.json"
+    },
+    {
+      "id": "KN-20261117-002",
+      "path": "knowledge/records/KN-20261117-002.json"
+    },
+    {
+      "id": "KN-20261117-003",
+      "path": "knowledge/records/KN-20261117-003.json"
+    },
+    {
+      "id": "KN-20261117-004",
+      "path": "knowledge/records/KN-20261117-004.json"
+    },
+    {
+      "id": "KN-20261117-005",
+      "path": "knowledge/records/KN-20261117-005.json"
+    },
+    {
+      "id": "KN-20261119-001",
+      "path": "knowledge/records/KN-20261119-001.json"
     }
   ]
 }

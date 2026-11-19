@@ -1,0 +1,31 @@
+{
+  "id": "KN-20261119-001",
+  "title": "Рабочие пары P1/3 и P7/4",
+  "claim_type": "observation",
+  "origin_kind": "discussion",
+  "status": "captured",
+  "recorded_at": "2026-11-19",
+  "statement": "Автор принял пары Воздержания Идеи и Скольжения Хранителя для рабочей матрицы. Все 56 аспектов имеют рабочие формулировки и допускают пересмотр.",
+  "scope": "Исследовательские адреса P1.3.1, P1.3.2, P7.4.1 и P7.4.2.",
+  "source": {
+    "label": "Решение автора зафиксировано в обсуждении #12",
+    "reference": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154",
+    "locator": "knowledge/decisions/DR-20261119-001.md",
+    "reviewed_material": "Принята редакционная пара для Воздержания Идеи и пара из двух авторских фрагментов для Скольжения Хранителя."
+  },
+  "impacted_nodes": [
+    "P1",
+    "P7"
+  ],
+  "related_record_ids": [
+    "KN-20261114-001",
+    "KN-20261117-005"
+  ],
+  "links": [],
+  "checks_needed": [
+    "Уточнить смысл степеней системы, предмет, условия и границы доступа Оракула, когда появится продолжение авторской мысли."
+  ],
+  "decision_ref": "knowledge/decisions/DR-20261119-001.md",
+  "supersedes": null,
+  "superseded_by": null
+}

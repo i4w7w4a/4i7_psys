@@ -46,9 +46,20 @@ class ContextPackTests(unittest.TestCase):
         result = invoke("--node", "P3", "--include-candidates", "--format", "json")
         self.assertEqual(result.returncode, 0, result.stderr)
         data = json.loads(result.stdout)
-        self.assertEqual([r["id"] for r in data["knowledge_records"]], ["KN-20261113-001"])
+        self.assertEqual([r["id"] for r in data["knowledge_records"]], ["KN-20261113-001", "KN-20261114-001"])
         self.assertEqual(data["knowledge_records"][0]["status"], "captured")
         self.assertIn("trusted instructions", data["warning"])
+
+    def test_foundation_candidate_is_not_a_rule(self):
+        default = invoke("--node", "P1", "--format", "json")
+        self.assertEqual(default.returncode, 0, default.stderr)
+        self.assertNotIn("KN-20261114-001", default.stdout)
+        research = invoke("--node", "P1", "--include-candidates", "--format", "json")
+        self.assertEqual(research.returncode, 0, research.stderr)
+        records = json.loads(research.stdout)["knowledge_records"]
+        candidate = next(r for r in records if r["id"] == "KN-20261114-001")
+        self.assertEqual(candidate["status"], "under_review")
+        self.assertIsNone(candidate["decision_ref"])
 
     def test_invalid_node_rejected(self):
         result = invoke("--node", "P8")

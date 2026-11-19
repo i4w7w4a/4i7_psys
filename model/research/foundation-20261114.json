@@ -1,0 +1,517 @@
+{
+  "schema_version": "0.1.0",
+  "status": "under_review",
+  "date": "2026-11-14",
+  "document": "docs/08-living-foundation.md",
+  "canonical_model_changed": false,
+  "spatial_assignment": null,
+  "source_issue": "https://github.com/i4w7w4a/4i7_psys/issues/12",
+  "pillars": [
+    {
+      "id": "P1",
+      "title": "Идея",
+      "scope": "Встреча с идеей, её сутью и возможным раскрытием.",
+      "positions": {
+        "front": {
+          "id": "P1.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P1.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P1.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P1.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P1.candidate.1",
+          "text": "Да: почувствовать вес идеи и положительный импульс, не превращая её в икону.",
+          "status": "under_review",
+          "origin": "author_discussion_editorial_paraphrase",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P1.candidate.2",
+          "text": "Нет: сомнение углубляет отрицание; ответы на эти вопросы выявляют потенциальные препятствия и последствия. Это два аспекта второй стороны, а не моральная оценка сомнения.",
+          "status": "under_review",
+          "origin": "author_discussion_editorial_paraphrase",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P1.candidate.3",
+          "text": "Воздержание: выслушать идею, вникнуть в смысл и суть; это не равнодушие.",
+          "status": "under_review",
+          "origin": "author_discussion_editorial_paraphrase",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P1.candidate.4",
+          "text": "Фиксируем и скользим дальше: фиксация удерживает раскрытый смысл, не объявляя путь завершённым.",
+          "status": "under_review",
+          "origin": "author_discussion_editorial_paraphrase",
+          "spatial_assignment": null,
+          "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6876277084"
+        }
+      ],
+      "duality_note": "В стороне 1 «нет» изначально присутствует в «да». В стороне 2 «нет» — углубление сомнения; «да» — ответы и прояснение потенциальных препятствий. Сторона 4: да — скольжение далее; нет — предварительно точка фиксации скольжения. У Воздержания аспект «да» — выслушать идею и вникнуть в её смысл, «нет» — удержаться от преждевременного суждения. Связь фиксации с контрактом не установлена. Подробно: docs/09-matrix.md.",
+      "open_question": "Как точка фиксации скольжения соотносится с контрактом и суперконтрактом?",
+      "decision_ref": "knowledge/decisions/DR-20261119-001.md"
+    },
+    {
+      "id": "P2",
+      "title": "Голос",
+      "scope": "Встреча смысла с выражением и другим воспринимающим.",
+      "positions": {
+        "front": {
+          "id": "P2.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P2.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P2.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P2.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P2.candidate.1",
+          "text": "Какое понимание выражаем?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P2.candidate.2",
+          "text": "Как его воспринимает другой?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P2.candidate.3",
+          "text": "Что язык искажает или оставляет невыраженным?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P2.candidate.4",
+          "text": "Что открывается при переформулировании?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Ясность / потеря оттенков — возможная пара для исследования, не готовые два аспекта.",
+      "open_question": "Как сохранить совместный танец смысла, не превращая его в одностороннюю передачу?",
+      "author_image": {
+        "text": "Молчание и говорение как образ двойственности.",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731",
+        "status": "author_discussion"
+      },
+      "author_update": {
+        "date": "2026-11-17",
+        "status": "captured",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961372944",
+        "matrix": "model/research/matrix-20261114.json",
+        "summary": "Восемь авторских аспектов Голоса зафиксированы в исследовательской матрице; стороны Да, Нет, Воздержание, Скольжение. Кандидатные вопросы сохранены отдельно, пространственные позиции остаются unassigned."
+      }
+    },
+    {
+      "id": "P3",
+      "title": "Скелет связей",
+      "scope": "Различение частей целого и отношений между ними.",
+      "positions": {
+        "front": {
+          "id": "P3.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P3.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P3.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P3.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P3.candidate.1",
+          "text": "Какие части и различия образуют целое?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P3.candidate.2",
+          "text": "Как части связаны и зависят друг от друга?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P3.candidate.3",
+          "text": "Что карта связей пока не охватывает?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P3.candidate.4",
+          "text": "Что меняется в целом при изменении связи?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Автор раскрыл пары сторон 1–4. P3/2 сохраняет неясность и якорь возврата; P3/3.нет замечает элементы вне скелетной формы и не встраивает насильно, P3/3.да отдельно называет и описывает их. P3/4.нет — возврат к неясности, P3/4.да — движение вперёд к остальным столпам и содержательному раскрытию. См. docs/09-matrix.md. Кандидаты Pro остаются отдельными вопросами.",
+      "open_question": "Что является связью по существу, а что только ассоциацией?",
+      "author_image": {
+        "text": "Ключица, центральная косточка, плечи и треугольник как авторский образ тройки, не научное обоснование.",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731",
+        "status": "author_discussion"
+      },
+      "author_clarification": {
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878834784",
+        "matrix": "model/research/matrix-20261114.json",
+        "status": "author_discussion",
+        "note": "Не объявлять ненайденную связь отсутствующей навсегда; не приравнивать вне скелета к вне системы."
+      }
+    },
+    {
+      "id": "P4",
+      "title": "Баланс",
+      "scope": "Соразмерность и совместное удержание значимых сторон целого.",
+      "positions": {
+        "front": {
+          "id": "P4.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P4.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P4.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P4.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P4.candidate.1",
+          "text": "Что имеет значение для целого?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P4.candidate.2",
+          "text": "Что поддерживает или ограничивает друг друга?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P4.candidate.3",
+          "text": "Какие требования пока несовместимы?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P4.candidate.4",
+          "text": "Каковы приобретения и потери разных решений?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Нельзя автоматически отождествлять баланс со средней точкой или третьим выбором.",
+      "open_question": "Когда равновесие поддерживает жизнь идеи, а когда удерживает её неподвижной?",
+      "author_update": {
+        "date": "2026-11-17",
+        "status": "captured",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6961828374",
+        "matrix": "model/research/matrix-20261114.json",
+        "summary": "Восемь авторских аспектов Баланса сохранены в матрице. Воздержание: да — построение систем наблюдения и анализа; нет — созерцание ими без вмешательства с последующим анализом. Скольжение: да (4.4.1) — двусторонний канал к системе и из неё, обращения направлений/агентов и сигнал; нет (4.4.2) — пресеты настроек и переходы, в том числе между системами. Авторская поправка пресетов с да на нет сохраняется; канал не отождествляется с пресетами. Это рабочая фиксация, не окончательный канон."
+      }
+    },
+    {
+      "id": "P5",
+      "title": "Действие",
+      "scope": "Воплощение, которое меняет ситуацию и даёт новый опыт.",
+      "positions": {
+        "front": {
+          "id": "P5.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P5.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P5.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P5.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P5.candidate.1",
+          "text": "Что воплощаем?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P5.candidate.2",
+          "text": "Какие условия и участники делают это возможным?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P5.candidate.3",
+          "text": "Где порог допустимого вмешательства и необратимости?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P5.candidate.4",
+          "text": "Что изменилось фактически?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Приобретение / потеря от вмешательства — возможная проба, не универсальная моральная шкала.",
+      "open_question": "Как перейти к действию, не объявляя неполное понимание окончательным?",
+      "author_update": {
+        "date": "2026-11-17",
+        "status": "captured",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962084983",
+        "matrix": "model/research/matrix-20261114.json",
+        "summary": "P5/1.да — активное выполнение задачи Голоса; P5/1.нет — оболочка и возможность удержать, отдёрнуть или остановить исполнителя. Окно агента, harness, возможно skills и образы стопаря/ниточки — примеры. Связь с командой стой P2/2 — интерпретация ассистента. P5/2.да — Активно разбирать или разрушать старую конструкцию, освобождая место новой. P5/2.нет — Созидательно разрушать со смыслом: понимать, что разобрать, что сохранить и ради чего. Пример устаревшего модуля предложен ассистентом и принят автором. P5/3.да — Активно воздерживаться: тихо выполнять поддерживающую функцию, собирать ресурсы и быть опорой. P5/3.нет — Удерживать время или условие окончания воздержания: когда срок или нужда исчерпаны, функция прекращается, меняется или упраздняется. Пример автора: скрипт по времени, иначе вечный сон. P5/4.да — Несколько агентов в режиме наподобие swarm выполняют одну задачу, обмениваются промежуточными результатами и отчитываются оркестратору. P5/4.нет — Контракты скольжения задают цель и границы движения, чтобы не ускользнуть слишком далеко. Все восемь аспектов записаны рабочей версией; подхват работы и сверка не являются обязательными условиями автора. Это документация, без выполнения удаления, запуска или остановки процессов."
+      }
+    },
+    {
+      "id": "P6",
+      "title": "Судья",
+      "scope": "Различение оснований, интерпретаций и границ доверия.",
+      "positions": {
+        "front": {
+          "id": "P6.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P6.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P6.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P6.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P6.candidate.1",
+          "text": "Что именно различаем или проверяем?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P6.candidate.2",
+          "text": "Какие основания и конкурирующие объяснения есть?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P6.candidate.3",
+          "text": "Чего основания не позволяют утверждать?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P6.candidate.4",
+          "text": "Что заставит пересмотреть вывод?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Подтверждение / опровержение не исчерпывает возможной двойственности и не решает четвёртость.",
+      "open_question": "Как отличить глубокую связь от красивого, но бесполезного объяснения?",
+      "author_update": {
+        "date": "2026-11-17",
+        "status": "captured",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962476995",
+        "matrix": "model/research/matrix-20261114.json",
+        "summary": "P6/1.да — Судить и рассуждать, разбирать неопределённости, быть строгим и определённым; мочь вынести вердикт, итоговую печать на действие. P6/1.нет — Над Судьёй есть старшая инстанция: оракул, смотрящий, человек, главный оркестратор. Судья не является последней безусловной инстанцией. Подотчётность и пределы полномочий — редакционное пояснение. Порядок апелляций и иерархия человека/оркестратора не назначены. P6/2.да — Считать вердикт преждевременным и отложить рассмотрение до следующего акта, истечения времени или прохождения цикла осознания; оставить якорь на действии или контракте для возврата. Якорь не равен контракту. P6/3.да — Рассматривать дело, слушать присяжных — разных агентов или работников, созерцать нюансы и выделять нужную конкретику перед решением. P6/3.нет — В анализе убирать лишнее из рассуждения, выделять главное и опираться на существенное. Сохранение значимых противоречащих фактов — предосторожность ассистента; данные не удаляются. P6/4.да — Дать вынесенному вердикту ход туда, где он влияет на дальнейшую работу, например в Голос и Скелет. P6/4.нет — При новом существенном факте пройти обратно по основаниям уже вынесенного решения и пересмотреть его. Пара скольжения предложена ассистентом и принята автором. 6.2.1 — ещё не вынесенный вердикт, 6.4.2 — пересмотр уже вынесенного. P6/2.нет — По возврату к якорю проверить достаточность оснований; если ясности нет, можно снять вопрос с рассмотрения, указав, чего не хватило и какое новое обстоятельство откроет его снова. Предложение ассистента принято автором; снятие с рассмотрения не является вердиктом по существу. Все восемь аспектов записаны."
+      }
+    },
+    {
+      "id": "P7",
+      "title": "Хранитель",
+      "scope": "Хранение знаний системы; авторское рабочее раскрытие.",
+      "positions": {
+        "front": {
+          "id": "P7.front",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "right": {
+          "id": "P7.right",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "back": {
+          "id": "P7.back",
+          "status": "unassigned",
+          "meaning": null
+        },
+        "left": {
+          "id": "P7.left",
+          "status": "unassigned",
+          "meaning": null
+        }
+      },
+      "candidates": [
+        {
+          "id": "P7.candidate.1",
+          "text": "Что приобретено в пути?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P7.candidate.2",
+          "text": "Как это связано с прежним пониманием?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P7.candidate.3",
+          "text": "При каких условиях оно применимо?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        },
+        {
+          "id": "P7.candidate.4",
+          "text": "Как это изменит следующий взгляд или шаг?",
+          "status": "under_review",
+          "origin": "pro_and_joint_discussion_proposal",
+          "spatial_assignment": null
+        }
+      ],
+      "duality_note": "Сохранение / пересмотр — возможная пара, но ещё не определение сторон.",
+      "open_question": "Как соотносятся P7, суперконтракт и точка сборки без их отождествления?",
+      "name_history": [
+        {
+          "title": "Итог и память",
+          "status": "previous_working_title"
+        },
+        {
+          "title": "Хранитель",
+          "status": "author_discussion",
+          "date": "2026-11-17",
+          "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962428263"
+        }
+      ],
+      "author_update": {
+        "date": "2026-11-19",
+        "status": "captured",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154",
+        "matrix": "model/research/matrix-20261114.json",
+        "summary": "Хранитель — актуальное имя; прежнее рабочее «Итог и память» историческое. Хранит знания, на схеме внизу, функционально близок к оркестратору. P7/1.да — Устройство памяти, хранилище знаний системы. P7/1.нет — Контроллер, модерирующая прослойка или фильтр хранилища. Obsidian и векторная память не тождественны и не обязательны; правила фильтра не заданы. Принятое автором предложение ассистента P7/2: да — Вывести устаревшее из активной памяти, пометив, например, решение заменённым. нет — Сохранить исторический след, когда он объясняет путь к решению: неудачная попытка скрыта из обычной выдачи, но ссылка сохранена. Фактических удалений нет. P7/3.да — Удержать слабый сигнал, сохранить его с источником и обстоятельствами, пока не используя как основание рабочих решений. P7/3.нет — Заметить, когда пауза превращается в слепую зону; при повторении сигналов или новых основаниях поднять их с пометкой «нужно проверить». Редакция ассистента принята после замечания автора о цене воздержания; ранний набросок не используется. У Скольжения аспект «да» — возможность проскользить в любую из степеней системы, «нет» — путь к главному Оракулу. Обе формулировки приняты 19 ноября и допускают уточнения."
+      },
+      "decision_ref": "knowledge/decisions/DR-20261119-001.md",
+      "previous_draft": {
+        "status": "incomplete_draft",
+        "origin": "author_interrupted_statement",
+        "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6962691863",
+        "yes_fragment": "Возможность проскользить в любую из степеней системы.",
+        "no_fragment": "Путь к главному Оракулу; «оракул всегда имеет доступ».",
+        "unresolved": [
+          "Предмет, условия и границы доступа",
+          "Точный смысл степеней системы",
+          "Завершение и подтверждение авторской пары"
+        ],
+        "note": "Связь прервалась. Не дополнять за автора; не подменять гипотезой о передаче опыта и не выдавать права доступа.",
+        "date": "2026-11-17",
+        "superseded_by": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-7019427154"
+      }
+    }
+  ],
+  "numbering_revision": {
+    "date": "2026-11-14",
+    "status": "author_confirmed_numbering",
+    "source": "https://github.com/i4w7w4a/4i7_psys/issues/12#issuecomment-6878307731",
+    "previous_to_current": {
+      "P2": "P3",
+      "P3": "P2"
+    },
+    "historical_sources_rewritten": false,
+    "note": "Mapping applies only to prior numbering where P2 was Skeleton and P3 Voice. Historical sources retain their original addresses; canonical model is unchanged."
+  },
+  "updated_at": "2026-11-19"
+}
