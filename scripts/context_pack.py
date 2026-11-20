@@ -15,6 +15,13 @@ ROOT = Path(__file__).resolve().parents[1]
 MATRIX = 'model/research/matrix-20261114.json'
 DOC = 'docs/09-matrix.md'
 VERSION = '4i7-runtime-1'
+REPORT_FEED_URL = 'https://github.com/i4w7w4a/4i7_psys/issues?q=is%3Aissue%20label%3A4i7-report'
+REPORT_FEED_INSTRUCTIONS = (
+    'При входе, возобновлении и перед действием, зависящим от общих решений, '
+    'сверь все страницы ленты с сохранёнными ID прочитанных отчётов участника. '
+    'Прочти пропущенное и сохрани подтверждение. При недоступности укажи пробел. '
+    'Сборщик работает офлайн. Порядок публикации и подтверждения описан в docs/10-agent-runtime.md.'
+)
 TITLES = ['Идея', 'Голос', 'Скелет связей', 'Баланс', 'Действие', 'Судья', 'Хранитель']
 SIDE_TITLES = ['Да', 'Нет', 'Воздержание', 'Скольжение']
 SOURCE_PATHS = [MATRIX, DOC, 'runtime/manifest.json', 'scripts/context_pack.py']
@@ -99,6 +106,7 @@ def build_current(root, nodes):
             'requested_nodes':nodes, 'focused_aspects':selected, 'total_matrix_aspects':56,
             'context_aspects_included':sum(len(p['sides'])*2 for p in pillars),
             'observer':{'id':'i','role':'Точка наблюдения и оркестрации, не восьмой столп; полномочия задаются отдельно.'},
+            'report_feed': {'url': REPORT_FEED_URL, 'instructions': REPORT_FEED_INSTRUCTIONS},
             'pillars':pillars, 'knowledge_records':[],
             'memory_policy':'Legacy knowledge and relation edges are deliberately not mixed into current numbering. Read original source links with provenance; migrate memory explicitly.',
             'warning':WARNING}
@@ -111,6 +119,8 @@ def render(pack):
              'Git HEAD: ' + str(pack['snapshot']['git_head']) + '; dirty: ' + str(pack['snapshot']['working_tree_dirty']),
              'Фокус: ' + ', '.join(pack['focused_aspects']), '',
              'Статусы и источники сохранены без повышения. Открытые аспекты остаются открытыми.', '']
+    feed = pack['report_feed']
+    lines.extend([f"[Общие отчёты 4i7]({feed['url']})", '', feed['instructions'], ''])
     for p in pack['pillars']:
         lines.append(f'## {p["id"]} · {p["title"]}')
         for s in p['sides']:

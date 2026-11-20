@@ -36,6 +36,21 @@ class CurrentContextTests(unittest.TestCase):
         self.assertEqual(cp.build_current(ROOT,['P3.2'])['focused_aspects'],['P3.2.1','P3.2.2'])
         self.assertEqual(cp.build_current(ROOT,['P3.2.1'])['focused_aspects'],['P3.2.1'])
         self.assertEqual(len(cp.build_current(ROOT,['i'])['focused_aspects']),56)
+
+    def test_report_feed_in_full_and_focused_current_outputs(self):
+        feed_url = 'https://github.com/i4w7w4a/4i7_psys/issues?q=is%3Aissue%20label%3A4i7-report'
+        for args in ([], ['--node', 'P3.2.1']):
+            with self.subTest(args=args):
+                result = self.run_cli(*args, '--format', 'json')
+                self.assertEqual(result.returncode, 0, result.stderr)
+                feed = json.loads(result.stdout)['report_feed']
+                self.assertEqual(feed['url'], feed_url)
+                result = self.run_cli(*args)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                overview = result.stdout.split('## P', 1)[0]
+                self.assertIn(f'({feed_url})', overview)
+                self.assertIn(feed['instructions'], overview)
+
     def test_reopened_aspects_preserve_notes_and_empty_values(self):
         # Model an earlier open pair independently of the current editorial snapshot.
         side = self.m['pillars'][6]['sides'][3]
