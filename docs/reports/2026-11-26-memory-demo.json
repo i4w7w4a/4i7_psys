@@ -1,0 +1,41 @@
+{
+  "kind": "4i7-memory-pilot-verification",
+  "project_id": "memory-pilot-fixture",
+  "fictional_fixture": true,
+  "network_used": false,
+  "before_active_ids": [
+    "D-EMBED",
+    "D-ID",
+    "D-IMPORT",
+    "D-LOCAL"
+  ],
+  "after_active_ids": [
+    "D-EGRESS",
+    "D-ID",
+    "D-IMPORT",
+    "D-LOCAL",
+    "D-SEARCH"
+  ],
+  "checks": {
+    "partial_supersession_preserves_independent_clauses": true,
+    "late_agent_report_stays_proposed": true,
+    "source_history_preserved": true,
+    "selective_dependency_review": true,
+    "old_checkpoint_stale": true,
+    "old_view_detected": true,
+    "reconciled_checkpoint_fresh": true,
+    "previous_receipt_preserved": true,
+    "current_context_opt_in": true,
+    "deterministic_replay_from_journal": true
+  },
+  "stale_reasons": [
+    "memory journal head changed",
+    "memory revision changed",
+    "memory content or projection code changed",
+    "active decision set changed"
+  ],
+  "memory_revision": 21,
+  "memory_head": "d46738e09f73fbd79d042236e2f24813a5eabc9875a703fef0d54e0a0848ffc1",
+  "context_content_id": "cec7fbb75afbc068a8c6aab3a38085d69a37b97b5beb10374c991cd85fdea9ba",
+  "limitations": "Executable mechanism test; not an independent agent A/B or verification of real vault/services."
+}

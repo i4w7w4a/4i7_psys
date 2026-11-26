@@ -1,0 +1,42 @@
+{
+  "active_decision_ids": [
+    "D-FOUNDATION",
+    "D-GOAL",
+    "D-IMAGES",
+    "D-REPORT",
+    "D-SEQUENCE"
+  ],
+  "context_content_id": "cec7fbb75afbc068a8c6aab3a38085d69a37b97b5beb10374c991cd85fdea9ba",
+  "memory_content_id": "45f305a1eb25393b641b2f3610920ee9ffa5cbdec773cfb6d68a15f5b16efdac",
+  "memory_head": "c0066f94e945f2eb55abc1521a4a48ab7a0900dee03c38633e369b5bc599fad0",
+  "memory_revision": 31,
+  "next_step": "Перейти к R-EVALUATION: выбрать настоящую задачу с независимыми условиями и частичным уточнением, проверить передачу следующему исполнителю. Перед действием сверить общую ленту. Слияние отдельно не поручено.",
+  "open_anchor_ids": [
+    "R-ACCESS",
+    "R-DEPENDENCIES",
+    "R-EVALUATION",
+    "R-PROOF-MODEL",
+    "R-SEARCH-SCALE"
+  ],
+  "participant_id": "assistant-root",
+  "project_id": "4i7-memory-development",
+  "receipts": [
+    {
+      "consequence": "Потеря отдельных условий при замене общей сводки стала главным регрессионным сценарием.",
+      "report_id": "https://github.com/i4w7w4a/4i7_psys/issues/26",
+      "result": "Реализованы ID положений, точное supersedes и сохранение независимых условий.",
+      "status": "applied",
+      "verification": "H1/H2 в 38 API-тестах и исполняемой демонстрации; точные результаты docs/reports/2026-11-26-memory-tests.json."
+    },
+    {
+      "consequence": "Пилот памяти опубликован; следующее развитие начинается с реальной оценки возобновления, а не с повторной реализации основы.",
+      "report_id": "https://github.com/i4w7w4a/4i7_psys/issues/27",
+      "result": "Опубликованы репорт #27 и draft PR #28, код 56dd4a3. GitHub read-back подтвердил 22 файла и сохранность 60 прежних; оба workflow прошли. Merge не выполнялся.",
+      "status": "applied",
+      "verification": "docs/reports/2026-11-26-memory-publication.json; https://github.com/i4w7w4a/4i7_psys/actions/runs/45857377502; https://github.com/i4w7w4a/4i7_psys/actions/runs/45857377560"
+    }
+  ],
+  "saved_at": "2026-11-26T16:20:05.095355Z",
+  "schema_version": "0.1.0",
+  "task": "74 разбора завершены; рабочая память реализована, проверена локально и в GitHub Actions, опубликована в репорте #27 и draft PR #28."
+}

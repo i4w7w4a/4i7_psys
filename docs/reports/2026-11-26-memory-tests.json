@@ -1,0 +1,160 @@
+{
+  "checked_at_utc": "2026-11-26T16:08:02.284863+00:00",
+  "base_commit": "7f0cdc01943067a8c0a66fbfbeacfc699a28b8a7",
+  "environment": "local materialized source tree; Python standard library; not remote CI",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "model",
+      "command": [
+        "python3",
+        "scripts/validate_model.py"
+      ],
+      "exit_code": 0,
+      "output": "OK: 1 observer, 7 pillars, 4 directions, 28 unique positions, valid references"
+    },
+    {
+      "name": "knowledge",
+      "command": [
+        "python3",
+        "scripts/validate_knowledge.py"
+      ],
+      "exit_code": 0,
+      "output": "OK: 8 knowledge records, model links and statuses"
+    },
+    {
+      "name": "runtime",
+      "command": [
+        "python3",
+        "scripts/validate_runtime.py"
+      ],
+      "exit_code": 0,
+      "output": "Runtime matrix: 7×4×2, source/status checks and exact generated documentation match PASS"
+    },
+    {
+      "name": "unit_tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "summary": "----------------------------------------------------------------------\nRan 81 tests in 1.986s\n\nOK"
+    },
+    {
+      "name": "current_p2",
+      "command": [
+        "python3",
+        "scripts/context_pack.py",
+        "--node",
+        "P2",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "layer": "current",
+      "content_id": "cec7fbb75afbc068a8c6aab3a38085d69a37b97b5beb10374c991cd85fdea9ba",
+      "titles": [
+        "Голос"
+      ]
+    },
+    {
+      "name": "current_p3",
+      "command": [
+        "python3",
+        "scripts/context_pack.py",
+        "--node",
+        "P3",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "layer": "current",
+      "content_id": "cec7fbb75afbc068a8c6aab3a38085d69a37b97b5beb10374c991cd85fdea9ba",
+      "titles": [
+        "Скелет связей"
+      ]
+    },
+    {
+      "name": "legacy_p3",
+      "command": [
+        "python3",
+        "scripts/context_pack.py",
+        "--layer",
+        "legacy",
+        "--node",
+        "P3",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "layer": "legacy",
+      "content_id": null,
+      "titles": [
+        3
+      ]
+    },
+    {
+      "name": "memory_demo",
+      "command": [
+        "python3",
+        "scripts/demo_project_memory.py",
+        "--root",
+        "<new-isolated-directory>"
+      ],
+      "exit_code": 0,
+      "result": {
+        "kind": "4i7-memory-pilot-verification",
+        "project_id": "memory-pilot-fixture",
+        "fictional_fixture": true,
+        "network_used": false,
+        "before_active_ids": [
+          "D-EMBED",
+          "D-ID",
+          "D-IMPORT",
+          "D-LOCAL"
+        ],
+        "after_active_ids": [
+          "D-EGRESS",
+          "D-ID",
+          "D-IMPORT",
+          "D-LOCAL",
+          "D-SEARCH"
+        ],
+        "checks": {
+          "partial_supersession_preserves_independent_clauses": true,
+          "late_agent_report_stays_proposed": true,
+          "source_history_preserved": true,
+          "selective_dependency_review": true,
+          "old_checkpoint_stale": true,
+          "old_view_detected": true,
+          "reconciled_checkpoint_fresh": true,
+          "previous_receipt_preserved": true,
+          "current_context_opt_in": true,
+          "deterministic_replay_from_journal": true
+        },
+        "stale_reasons": [
+          "memory journal head changed",
+          "memory revision changed",
+          "memory content or projection code changed",
+          "active decision set changed"
+        ],
+        "memory_revision": 21,
+        "memory_head": "d46738e09f73fbd79d042236e2f24813a5eabc9875a703fef0d54e0a0848ffc1",
+        "context_content_id": "cec7fbb75afbc068a8c6aab3a38085d69a37b97b5beb10374c991cd85fdea9ba",
+        "limitations": "Executable mechanism test; not an independent agent A/B or verification of real vault/services."
+      }
+    }
+  ],
+  "code_sha256": {
+    "scripts/context_pack.py": "99bac923a48164a6adafeb431b8f461f90bb97a763314a829450be3fb9fefb72",
+    "scripts/project_memory.py": "3f695f4c3d7b2b8315aeb3b740aa0181637804b0215354d145798e0e9555cd95",
+    "scripts/demo_project_memory.py": "982b25fa920145a935bac6ec76e94392e5b256adc5ce11183caff499b2fc189e",
+    "tests/test_project_memory.py": "bd7cc8afb86374a35777faa4bff1f6cf59ab9267193625db12d9214ef9e7a60a",
+    "tests/test_memory_context.py": "7a9584d1e91fc324240e6b431979181ab90ecdf9977b6ff59edaa5073eab9f6b"
+  }
+}

@@ -18,6 +18,7 @@ jobs:
       - run: python3 scripts/validate_knowledge.py
       - run: python3 scripts/validate_runtime.py
       - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/demo_project_memory.py --root "$RUNNER_TEMP/4i7-memory-pilot"
       - run: |
           python3 scripts/context_pack.py --node P2 --format json > /tmp/p2.json
           python3 scripts/context_pack.py --node P3 --format json > /tmp/p3.json

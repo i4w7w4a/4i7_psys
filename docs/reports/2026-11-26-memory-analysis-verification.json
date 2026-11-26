@@ -1,0 +1,20 @@
+{
+  "passes": 74,
+  "sequence": "1..74",
+  "chain_valid": true,
+  "unique_lenses": 74,
+  "unique_conclusions": 74,
+  "all_before_implementation": true,
+  "first_recorded_at_utc": "2026-11-26T15:40:51.292100+00:00",
+  "last_recorded_at_utc": "2026-11-26T15:54:08.186400+00:00",
+  "journal_head": "cd63487f3874f9ee85eaff0c1bf7388987de4eb073d704f21e8b2cf5e05c2417",
+  "decision_counts": {
+    "развить": 16,
+    "исправить": 9,
+    "усилить": 31,
+    "ослабить": 6,
+    "сохранить": 7,
+    "отложить": 5
+  },
+  "verified_at_utc": "2026-11-26T15:54:35.218667+00:00"
+}

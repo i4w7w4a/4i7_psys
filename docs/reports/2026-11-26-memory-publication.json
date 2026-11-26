@@ -1,0 +1,33 @@
+{
+  "code_commit": "56dd4a36b303f0416334911fb3f7f14c988f7f11",
+  "report_url": "https://github.com/i4w7w4a/4i7_psys/issues/27",
+  "pull_request_url": "https://github.com/i4w7w4a/4i7_psys/pull/28",
+  "branch": "codex/memory-74-20261126",
+  "draft": true,
+  "merged": false,
+  "remote_tree_verification": {
+    "tree_sha": "31ee9d16e3a648fe53805266d0c3cf4b0509ac82",
+    "changed_files_verified": 22,
+    "errors": [],
+    "unchanged_base_verified": 60,
+    "unexpected": [],
+    "truncated": false
+  },
+  "workflows": [
+    {
+      "id": 45857377502,
+      "name": "Current matrix context",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/i4w7w4a/4i7_psys/actions/runs/45857377502"
+    },
+    {
+      "id": 45857377560,
+      "name": "Validate 4i7",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/i4w7w4a/4i7_psys/actions/runs/45857377560"
+    }
+  ],
+  "scope": "Verified code commit before the final publication-receipt commit; the later receipt does not change implementation code."
+}
